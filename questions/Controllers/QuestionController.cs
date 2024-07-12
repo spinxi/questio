@@ -10,7 +10,7 @@ namespace questions.Controllers
     [ApiController]
     public class QuestionsController : ControllerBase
     {
-        private readonly IConfiguration _configuration;
+        private readonly IConfiguration _configuration;ss
 
         public QuestionsController(IConfiguration configuration)
         {
